@@ -110,3 +110,90 @@ body {
 }
 
 /* Banner Section style end here */
+
+
+/* why web development section style start here  */
+.why-web-dev-container {
+    max-width: 1140px;
+    height: 1393px;
+
+    border: 2px solid red;
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.why-web-dev-content {
+    max-width: 852px;
+    height: 113px;
+
+    border: 2px solid fuchsia;
+}
+
+.why-web-dev-content h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.why-web-dev-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    /* margin: 24px 0px; */
+    text-align: center;
+}
+
+.why-web-dev-items {
+    border: 2px solid red;
+}
+
+.item-type-1 {
+    width: 946px;
+    height: 336px;
+    padding: 48px;
+
+    border: 1px solid red;
+
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item-type-1-left {
+    width: 477px;
+    height: 219px;
+}
+
+.type-1-left h1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0px;
+}
+
+.type-1-left p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin: 16px 0px;
+
+}
+
+.type-1-right{
+    width: 50%;
+}
+
+/* why web development section style end here  */
