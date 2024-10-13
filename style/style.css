@@ -32,6 +32,7 @@ body {
     color: rgb(13, 19, 33);
     font-size: 28px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .nav-section button {
@@ -243,6 +244,7 @@ body {
 
 .learn-more a {
     text-decoration: none;
+    color: rgb(13, 19, 33);
 }
 
 .item-type-1-right {
@@ -477,7 +479,119 @@ body {
 
 
 /* My Next Target section style start here */
-/* /////////////////////////////////////// */
+.next-target-container {
+    max-width: 1140px;
+    height: 866px;
+
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 111px;
+    margin-bottom: 50px;
+}
+
+.next-target-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.next-target-content {
+    max-width: 852px;
+    height: 113px;
+
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.next-target-content h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.next-target-content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.next-target-card-1 {
+    max-width: 1140px;
+    height: 219px;
+    margin: 0 auto;
+
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 24px;
+
+}
+
+.next-target-card-1-img {
+    width: 94.78px;
+    height: 108px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.next-target-card-1-text h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+
+
+    /* width: 110px;
+    height: 36px; */
+}
+
+.next-target-card-1-text p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.learn-more-2 {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.next-target-card-1-node {
+    max-width: 1140px;
+    height: 219px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 70px;
+}
+
+
 /* My Next Target section style end here */
 
 
