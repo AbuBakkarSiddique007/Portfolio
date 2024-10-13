@@ -355,3 +355,191 @@ body {
 }
 
 /* My Inspiration Section style end here */
+
+/* My current target Section style start here */
+.current-target-container {
+    max-width: 1140px;
+    height: 460px;
+
+    margin: 0 auto;
+    margin-bottom: 111px;
+
+    /* border: 1px solid red; */
+}
+
+.current-target-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.current-target-content {
+    width: 852px;
+    height: 113px;
+
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.current-target-content h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px
+}
+
+.current-target-content p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+/* target cards */
+.target-card-1 {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+
+    padding: 40px;
+
+    /* border: 1px solid rgb(0, 255, 102); */
+}
+
+.target-card-1 img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.target-card-1 h2 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.target-card-1 p {
+
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.target-card-1 span a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bg-html {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.bg-css {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.bg-js {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* My current target Section style end here */
+
+
+
+/* My Next Target section style start here */
+/* /////////////////////////////////////// */
+/* My Next Target section style end here */
+
+
+
+/* I Need Support Section style Start here  */
+.support-container {
+    max-width: 1140px;
+    height: 313px;
+
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
+
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+
+    padding: 64px 48px 64px 48px;
+}
+
+.support-content {
+    max-width: 1044px;
+    height: 185px;
+    /* border: 2px solid yellow; */
+
+    margin: 0 auto;
+
+    /* background-color: aquamarine; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+
+}
+
+.support-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-content p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support-content input[type="text"] {
+    color: rgba(13, 19, 33, 0.4);
+    width: 548px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: 400;
+
+    border: none;
+    /* border: 1px solid rgba(13, 19, 33, 0.15); */
+
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+}
+
+.support-content input[type="submit"] {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    width: 120px;
+    height: 57px;
+    border: none;
+}
+
+/* I Need Support Section style end here  */
